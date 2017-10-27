@@ -4,5 +4,5 @@ plan:
   statement: markdowns/welcome.md
 
 projects:
-  angular-assessment
+  angular-assessment:
     runner: "nantoniazzi/angular-assessment:latest"
