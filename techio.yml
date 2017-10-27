@@ -2,3 +2,7 @@ title: Custom Template
 plan:
 - title: Welcome
   statement: markdowns/welcome.md
+
+projects:
+  "angular-assessment"
+    - runner: nantoniazzi/angular-assessment
