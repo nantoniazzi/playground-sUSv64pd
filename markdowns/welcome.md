@@ -1,4 +1,4 @@
-@[DEBUG]({stubs: [debug.sh], command: '/project/target/debug.sh'})
+@[DEBUG]({stubs: [debug.sh], command: 'bash /project/target/debug.sh'})
 
 @[RUN]({stubs:[Answer.js, test.js, test.html], command: 'chown -R node:node /project/target && su - node -c "/project/target/run.sh"'})
 
