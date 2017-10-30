@@ -1,4 +1,4 @@
-@[DEBUG]({command: 'bash -c "echo \\ --user-data-dir \\>\\> /google-chrome && echo TECHIO\\>terminal; sleep 6000"'})
+@[DEBUG]({command: '/project/target/debug.sh'})
 
 @[RUN]({stubs:[Answer.js, test.js, test.html], command: 'chown -R node:node /project/target && su - node -c "/project/target/run.sh"'})
 
